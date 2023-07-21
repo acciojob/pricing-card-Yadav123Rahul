@@ -3,13 +3,57 @@
 <html>
 
 <head>
+	<style>
+		div{
+    width: 20rem;
+    display: flex;
+    box-shadow: 0px 4px 0px #d9d9d9;
+    border-radius: 3px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    background-color: rgb(0, 255, 64);
+}
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 50px;
+    margin: auto;
+}
+h2{
+    margin: auto;
+    font-size: 1.4em;
+}
+p{
+    text-align: center;
+    margin: auto;
+}
+ button{
+    width: auto;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+ }
+	</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<p>
-		<img src="https://storage.googleapis.com/acciojob-open-file-collections/pricing-card.png"/>
-	</p>
+	 <div class="pricing-section">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv4UK-VacVrppny4aGjzhWStSrcsP_6A1UdFvRLCMg&s" alt="">
+        <h1>pricing card</h1>
+        <h2>Price: Rs.200</h2>
+        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button id="btn">Buy Now</button>
+       </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
